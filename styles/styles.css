@@ -1,102 +1,213 @@
-/* header */
 * {
-  margin: 0px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-.header-title {
-  text-align: right;
-  font-size: 65px;
-  margin-left: 845px;
-  margin-right: 230px;
-  font-family: "Work Sans";
-  padding-top: 216px;
-  font-weight: 700;
-}
-.header-description {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  margin-left: 845px;
-  margin-right: 230px;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: right;
-  color: #444343;
-  margin-top: 10px;
+.header {
+    background: blue;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+
 }
 .banner {
-  background-image: url(/images/banner/banner2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: overlay;
-  width: 100%;
-  height: 100vh;
-}
-.header-button {
-  text-align: center;
-  margin-left: 1175px;
-  margin-right: 210px;
-  padding: 20px 26px;
-  background: #f15b22;
-  border-radius: 5px;
-  color: #ffffff;
-  margin-top: 10px;
-}
-/* body */
-.next-header {
-  margin-top: 578px;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
-  position: absolute;
-  width: 288px;
-  height: 94px;
-  left: 862px;
-  top: 478px;
-}
-.next-description {
-  position: absolute;
-  width: 416px;
-  height: 104px;
-  left: 862px;
-  top: 1170px;
-
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #444343;
+    margin: 0 200px;
+    text-align: right;
+    padding-top: 350px;
+    padding-bottom: 350px;
 }
 
-.list {
-  position: absolute;
-  width: 349px;
-  height: 162px;
-  left: 835px;
-  top: 1270px;
+.hero-title {
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
 }
-li {
-  list-style-image: url(/images/check-solid.svg);
+
+.hero-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
 }
-.person-photo {
-  position: absolute;
-  width: 569px;
-  height: 723.3px;
-  left: 206px;
-  top: 839px;
+
+.primary-button {
+    color: #005FAC;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 20px;
 }
-.my-plans{
-    position: absolute;
-width: 179px;
-height: 70px;
-left: 700px;
-top: 1792.3px;
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-color: #151414;
+
+
+/* Second section styles */
+
+.second-section {
+    margin: 100px 350px;
+}
+
+.section-container {
+    display: flex;
+}
+
+.failure-section {
+    padding-top: 300px;
+    width: 500px;
+    padding-left: 100px;
+
+}
+
+.content-title {
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 20px;
+    font-family: 'Work Sans';
+}
+
+.content-description {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.main {
+    max-width: 1140px;
+}
+
+/* third section styles */
+
+.my-plans {
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.plan-title {
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding-bottom: 60px;
+    margin-top: 100px;
+}
+
+.plans-content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+
+/* forth box content */
+.box-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    max-height: 400px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    margin-bottom: 80px ;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+
+.box-title {
+    padding-left: 20px;
+}
+
+.box-content-title {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+
+.primary-button2 {
+    color: #005FAC;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    margin: 30px 0px;
+    padding: 10px 20px;
+}
+
+/* footer styles */
+.footer {
+    background-color: black;
+    color: white;
+    height: 500px;
+    padding: 0 200px;
+    justify-content: space-between;
+}
+
+.future {
+    width: 80%;
+}
+.footer-box {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.footer-title{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+.footer-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom:20px ;
+}
+
+.footer-mail {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom:10px ;
+}
+
+.footer-phone {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom:20px ;
+}
+
+.your-email {
+    border: 1px solid white;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.button {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #005FAC;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
