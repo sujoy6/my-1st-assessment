@@ -70,13 +70,33 @@
   color: #444343;
 }
 
-.list{
-    position: absolute;
-    width: 349px;
-    height: 162px;
-    left: 835px;
-    top: 1270px;
+.list {
+  position: absolute;
+  width: 349px;
+  height: 162px;
+  left: 835px;
+  top: 1270px;
 }
-li{
-    list-style-image: url(/images/check-solid.svg);
+li {
+  list-style-image: url(/images/check-solid.svg);
+}
+.person-photo {
+  position: absolute;
+  width: 569px;
+  height: 723.3px;
+  left: 206px;
+  top: 839px;
+}
+.my-plans{
+    position: absolute;
+width: 179px;
+height: 70px;
+left: 700px;
+top: 1792.3px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
 }
